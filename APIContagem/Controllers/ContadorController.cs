@@ -25,7 +25,7 @@ namespace APIContagem.Controllers
                     Environment.MachineName,
                     Sistema = Environment.OSVersion.VersionString,
                     Variavel = configuration["TesteAmbiente"],
-                    Local = "FC Nuvem",
+                    Local = "NESS",
                     TargetFramework = Assembly
                         .GetEntryAssembly()?
                         .GetCustomAttribute<TargetFrameworkAttribute>()?
