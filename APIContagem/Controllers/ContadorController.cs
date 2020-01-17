@@ -25,7 +25,7 @@ namespace APIContagem.Controllers
                     Environment.MachineName,
                     Sistema = Environment.OSVersion.VersionString,
                     Variavel = configuration["TesteAmbiente"],
-                    Local = "NESS",
+                    Local = "Teste",
                     TargetFramework = Assembly
                         .GetEntryAssembly()?
                         .GetCustomAttribute<TargetFrameworkAttribute>()?
